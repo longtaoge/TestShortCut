@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/et_num"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="56" />
+    <Button 
+        android:id="@+id/btn_show"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="生成快捷方式（没有边框）"/>
+    <Button 
+        android:id="@+id/btn_show2"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="生成快捷方式（有边框）"/>
+
+</LinearLayout>
+<!-- From: file:/J:/domes/TestShortCut/app/src/main/res/layout/activity_main.xml -->
